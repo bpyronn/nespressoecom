@@ -11,4 +11,4 @@ class TestOrderCapsules:
         menu = NavigationMenu(set_up, 'Coffee')
         menu.select_menu()
         capsule = OrderCapsules(set_up)
-        capsule.add_to_bag_and_select_50('Kazaare')
+        capsule.add_to_bag_and_select_50('Kazaar')
