@@ -14,5 +14,5 @@ def set_up():
     driver.maximize_window()
     driver.get("https://www.nespresso.com/ch/en/home")
     yield driver
-    #driver.close()
-    #driver.quit()
+    driver.close()
+    driver.quit()
